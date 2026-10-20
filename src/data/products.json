@@ -1,1 +1,136 @@
-[]
+[
+    {
+"id": 1,
+"name": "FGM-148 Javelin",
+"price": 1.99,
+"category": "Missile",
+"description": "A portable, shoulder-fired anti-tank missile system from Lockheed Martin designed to engage armored vehicles and other battlefield targets.",
+"imageUrl": "./images/FGM-148 Javelin.jpg"
+},
+
+{
+"id": 2,
+"name": "ATACMS",
+"price": 1.99,
+"category": "Missile",
+"description": "A surface-launched tactical ballistic missile from Lockheed Martin designed to strike targets at extended distances.",
+"imageUrl": "./images/ATACMS.jpg"
+},
+
+{
+"id": 3,
+"name": "PAC-3 MSE",
+"price": 0.99,
+"category": "Missile",
+"description": "An advanced interceptor designed by Lockheed Martin to defend against ballistic and cruise missile threats.",
+"imageUrl": "./images/PAC-3 MSE.jpg"
+},
+
+{
+"id": 4,
+"name": "Harpoon Block II",
+"price": 3.99,
+"category": "Missile",
+"description": "An anti-ship cruise missile designed by Boeing to engage surface vessels, with Block II adding enhanced targeting capabilities.",
+"imageUrl": "./images/Harpoon Block II.jpg"
+},
+
+{
+"id": 5,
+"name": "SLAM-ER",
+"price": 4.99,
+"category": "Missile",
+"description": "An air-launched standoff land-attack missile designed by Boeing for precision strikes against selected surface targets.",
+"imageUrl": "./images/SLAM-ER.jpg"
+},
+
+{
+"id": 6,
+"name": "AARGM-ER",
+"price": 4.99,
+"category": "Missile",
+"description": "An advanced anti-radiation missile designed by Northrop Grumman to engage radar and other air-defense-related emitters.",
+"imageUrl": "./images/AARGM-ER.jpg"
+},
+
+{
+"id": 7,
+"name": "ASTER 30",
+"price": 1.99,
+"category": "Missile",
+"description": "A surface-to-air interceptor designed by MBDA and used in air-defense systems to counter aircraft and certain missile threats.",
+"imageUrl": "./images/ASTER 30.jpg"
+},
+
+{
+"id": 8,
+"name": "Brimstone",
+"price": 6.99,
+"category": "Missile",
+"description": "An air-launched precision-guided missile developed by MBDA for engaging a range of surface targets.",
+"imageUrl": "./images/Brimstone.jpg"
+},
+
+{
+"id": 9,
+"name": "Barracuda-100/100M",
+"price": 0.99,
+"category": "Missile",
+"description": "An air-breathing autonomous cruise missile configuration designed by Anduril for affordable production and flexible mission applications.",
+"imageUrl": "./images/Barracuda-100/100M.jpg"
+},
+
+{
+"id": 10,
+"name": "Barracuda-250/250M",
+"price": 1.99,
+"category": "Missile",
+"description": "A mid-sized member of the Barracuda-M cruise missile family, designed by Anduril to offer increased size, range, and payload capacity within the product family.",
+"imageUrl": "./images/Barracuda-250/250M.jpg"
+},
+
+{
+"id": 11,
+"name": "Barracuda-500/500M",
+"price": 5.99,
+"category": "Missile",
+"description": "The largest member of the Barracuda-M family, designed by Anduril for extended-range precision strike missions.",
+"imageUrl": "./images/Barracuda-500/500M.jpg"
+},
+
+{
+"id": 12,
+"name": "Tamir",
+"price": 9.99,
+"category": "Missile",
+"description": "An interceptor designed by Rafael and used by Israel's Iron Dome air-defense system to counter incoming rockets and other aerial threats.",
+"imageUrl": "./images/Tamir.jpg"
+},
+
+{
+"id": 13,
+"name": "Spike",
+"price": 8.99,
+"category": "Missile",
+"description": "A family of electro-optically guided missiles developed by Rafael for a variety of land, vehicle, and other military applications.",
+"imageUrl": "./images/Spike.jpg"
+},
+
+{
+"id": 14,
+"name": "Storm Shadow",
+"price": 12.99,
+"category": "Missile",
+"description": "An air-launched, long-range cruise missile designed by MBDA for precision strikes against selected land targets.",
+"imageUrl": "./images/Storm Shadow.jpg"
+},
+
+{
+"id": 15,
+"name": "Meteor",
+"price": 8.99,
+"category": "Missile",
+"description": "A beyond-visual-range air-to-air missile developed by MBDA to engage aerial targets.",
+"imageUrl": "./images/Meteor.jpg"
+}
+]
