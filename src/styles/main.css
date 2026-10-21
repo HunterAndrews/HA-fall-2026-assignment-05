@@ -1183,3 +1183,67 @@ a:focus-visible {
     transform: none;
   }
 }
+
+/* Make both About islands match the header width. */
+.about-main {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 22px;
+}
+
+.about-main > .welcome-island,
+.about-main > .featured-island {
+  width: 100%;
+  box-sizing: border-box;
+}
+
+/* Make Featured selection use the same layout as Welcome. */
+.about-main > .about-featured-island {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 32px;
+  padding: 36px 42px;
+}
+
+.about-featured-island .featured-heading {
+  flex: 1;
+  min-width: 0;
+}
+
+.about-featured-island .about-featured-content {
+  flex: 1;
+  min-width: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 18px;
+  margin-top: 0;
+}
+
+.about-featured-island .welcome-description {
+  max-width: 100%;
+}
+
+/* keep both islands comfortable on smaller screens */
+@media (max-width: 600px) {
+  .about-main > .about-featured-island {
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 28px;
+  }
+}
+
+/* About page: reusable, consistent island layout */
+.about-main {
+  display: flex;
+  flex-direction: column;
+  gap: 22px;
+  width: 100%;
+}
+
+.about-main > .welcome-island {
+  width: 100%;
+  box-sizing: border-box;
+}
