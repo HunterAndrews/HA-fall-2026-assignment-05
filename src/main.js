@@ -19,8 +19,6 @@ let products = [];
 let activeProductIndex = 0;
 let activeStorePage = 1;
 
-// ---------- Shared helpers ----------
-
 function getProductName(product) {
   return product.name ?? product.title ?? "Untitled Product";
 }
@@ -120,9 +118,7 @@ function createTextLink(text, href, className = "text-link") {
 
   return link;
 }
-
-// ---------- Opening logo animation ----------
-
+// animations
 function initializeIntro() {
   const intro = document.querySelector("#intro-screen");
 
@@ -146,7 +142,7 @@ function initializeIntro() {
   try {
     sessionStorage.setItem("ma-intro-seen", "true");
   } catch {
-    // The intro will still work for this page view.
+    // intro will still work for this page view
   }
 
   window.setTimeout(() => {
@@ -158,8 +154,7 @@ function initializeIntro() {
   }, 1200);
 }
 
-// ---------- Homepage product carousel ----------
-
+// homepage product carousel, slidier dots
 function renderFeaturedProduct() {
   const container = document.querySelector("#featured-product");
 
@@ -202,7 +197,7 @@ function renderFeaturedProduct() {
 
   container.replaceChildren(fragment);
 
-  // Restart the subtle entrance animation.
+  // animation restart
   container.classList.remove("product-animate");
   void container.offsetWidth;
   container.classList.add("product-animate");
@@ -276,7 +271,7 @@ function initializeCarousel() {
     moveCarousel(1);
   });
 
-  // Allow keyboard users to move between products.
+  // moving between products uysing keyboard
   const carousel = document.querySelector("#featured-carousel");
 
   carousel?.addEventListener("keydown", (event) => {
@@ -290,8 +285,7 @@ function initializeCarousel() {
   });
 }
 
-// ---------- Store catalog and pagination ----------
-
+// store catalog and pagination
 function renderStorePage(page = 1) {
   const container = document.querySelector("#product-container");
   const pagination = document.querySelector("#pagination");
@@ -419,8 +413,7 @@ function renderPagination(totalPages) {
   pagination.replaceChildren(fragment);
 }
 
-// ---------- Load local product data ----------
-
+// load local product data
 async function loadProducts() {
   try {
     const response = await fetch(PRODUCTS_URL);
@@ -431,7 +424,6 @@ async function loadProducts() {
 
     const data = await response.json();
 
-    // Accept either a direct array or an object containing a products array.
     products = Array.isArray(data) ? data : data.products;
 
     if (!Array.isArray(products)) {
@@ -475,8 +467,7 @@ async function loadProducts() {
   }
 }
 
-// ---------- Start the site ----------
-
+// start here kinda
 initializeIntro();
 initializeCarousel();
 loadProducts();
