@@ -77,7 +77,7 @@
 "price": 0.99,
 "category": "Missile",
 "description": "An air-breathing autonomous cruise missile configuration designed by Anduril for affordable production and flexible mission applications.",
-"imageUrl": "./images/Barracuda-100/100M.jpg"
+"imageUrl": "./images/Barracuda-100:100M.png"
 },
 
 {
@@ -86,7 +86,7 @@
 "price": 1.99,
 "category": "Missile",
 "description": "A mid-sized member of the Barracuda-M cruise missile family, designed by Anduril to offer increased size, range, and payload capacity within the product family.",
-"imageUrl": "./images/Barracuda-250/250M.jpg"
+"imageUrl": "./images/Barracuda-250:250M.png"
 },
 
 {
@@ -95,7 +95,7 @@
 "price": 5.99,
 "category": "Missile",
 "description": "The largest member of the Barracuda-M family, designed by Anduril for extended-range precision strike missions.",
-"imageUrl": "./images/Barracuda-500/500M.jpg"
+"imageUrl": "./images/Barracuda-500:500M.png"
 },
 
 {
@@ -104,7 +104,7 @@
 "price": 9.99,
 "category": "Missile",
 "description": "An interceptor designed by Rafael and used by Israel's Iron Dome air-defense system to counter incoming rockets and other aerial threats.",
-"imageUrl": "./images/Tamir.jpg"
+"imageUrl": "./images/Tamir.png"
 },
 
 {

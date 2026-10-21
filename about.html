@@ -1,1 +1,154 @@
 
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="About Modern Arsenal.">
+  <meta name="theme-color" content="#ffffff">
+  <title>About | Modern Arsenal</title>
+  <link rel="stylesheet" href="./src/styles/main.css">
+  <script type="module" src="./src/main.js"></script>
+</head>
+
+<body class="home-page">
+  <!-- Decorative target stays behind the page content. -->
+  <div class="target-backdrop" aria-hidden="true">
+    <svg
+      class="target-art"
+      viewBox="0 0 700 700"
+      xmlns="http://www.w3.org/2000/svg"
+      role="presentation"
+    >
+      <circle cx="350" cy="350" r="300" fill="none" stroke="currentColor" stroke-width="2" />
+      <circle cx="350" cy="350" r="245" fill="none" stroke="currentColor" stroke-width="2" />
+      <circle cx="350" cy="350" r="190" fill="none" stroke="currentColor" stroke-width="2" />
+      <circle cx="350" cy="350" r="135" fill="none" stroke="currentColor" stroke-width="2" />
+      <circle cx="350" cy="350" r="80" fill="none" stroke="currentColor" stroke-width="2" />
+
+      <path
+        d="M350 12 V90 M350 610 V688 M12 350 H90 M610 350 H688"
+        fill="none"
+        stroke="currentColor"
+        stroke-width="3"
+      />
+      <path
+        d="M110 110 L166 166 M534 534 L590 590 M590 110 L534 166 M166 534 L110 590"
+        fill="none"
+        stroke="currentColor"
+        stroke-width="2"
+      />
+
+      <!-- Profile silhouette -->
+      <g fill="#000000">
+        <path
+          d="M350 205
+          C308 205 280 238 280 282
+          C280 315 295 339 312 354
+          L312 384
+          L388 384
+          L388 354
+          C405 339 420 315 420 282
+          C420 238 392 205 350 205 Z"
+        />
+        <path
+          d="M312 365
+          C282 375 257 394 239 419
+          C221 446 213 478 209 511
+          L491 511
+          C487 478 479 446 461 419
+          C443 394 418 375 388 365
+          C380 362 370 360 350 360
+          C330 360 320 362 312 365 Z"
+        />
+      </g>
+    </svg>
+  </div>
+
+  <div class="site-shell">
+    <!-- Top navigation island -->
+    <header class="site-header island">
+      <a class="brand" href="./index.html" aria-label="Modern Arsenal home">
+        <span class="brand-name">Modern Arsenal</span>
+        <span class="brand-tagline">STRIKE FIRST</span>
+      </a>
+
+      <nav class="main-nav" aria-label="Main navigation">
+        <a class="nav-link" href="./index.html">Home</a>
+        <a class="nav-link active" href="./about.html" aria-current="page">About</a>
+        <a class="nav-link" href="./store.html">Store</a>
+      </nav>
+    </header>
+
+    <main class="home-main about-main">
+      <!-- First island: same welcome content as the homepage -->
+      <section class="welcome-island island" aria-labelledby="welcome-title">
+        <div class="welcome-copy">
+          <p class="eyebrow">MODERN ARSENAL / EST. 2026</p>
+          <h1 id="welcome-title">Welcome to Modern Arsenal!</h1>
+          <p class="welcome-description">
+            UNCC's only military-grade missile cyberstore. Explore the catalog of modern military firearms below.
+          </p>
+
+          <a class="text-link welcome-store-link" href="./store.html">
+            <span class="welcome-link-label">View the store</span>
+            <span class="welcome-link-arrow" aria-hidden="true">↗</span>
+          </a>
+        </div>
+
+        <div class="welcome-mark" aria-hidden="true">
+          <span class="mark-lin-ud"></span>
+          <span class="mark-line-rl"></span>
+          <span class="mark-dot"></span>
+          <span class="mark-line"></span>
+        </div>
+      </section>
+
+      <!-- Second island: same width and styling as the homepage islands -->
+      <section class="featured-island island about-featured-island" aria-labelledby="about-featured-title">
+        <div class="featured-heading">
+          <p class="eyebrow">THE COLLECTION</p>
+          <h2 id="about-featured-title">Featured selection</h2>
+        </div>
+
+        <div class="about-featured-content">
+          <p class="welcome-description">
+            Discover the Modern Arsenal catalog, featuring a clean,
+            minimalist presentation of our collection.
+          </p>
+
+          <a class="text-link welcome-store-link" href="./store.html">
+            <span class="welcome-link-label">View the store</span>
+            <span class="welcome-link-arrow" aria-hidden="true">↗</span>
+          </a>
+        </div>
+      </section>
+    </main>
+
+    <!-- Footer retained from the homepage -->
+    <footer class="site-footer">
+      <p>© 2026 Modern Arsenal. Some rights reserved.</p>
+
+      <div class="footer-links">
+        <span>
+          Contact me today:
+          <a
+            href="https://www.linkedin.com/in/hunter-andrews12"
+            target="_blank"
+            rel="noopener noreferrer"
+          >LinkedIn</a>
+        </span>
+
+        <span>
+          Follow me right now please:
+          <a
+            href="https://github.com/HunterAndrews"
+            target="_blank"
+            rel="noopener noreferrer"
+          >GitHub</a>
+        </span>
+      </div>
+    </footer>
+  </div>
+</body>
+</html>
